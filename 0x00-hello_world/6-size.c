@@ -8,14 +8,14 @@ int main(void)
 {
 	char w;
 	int x;
-	long y;
+	long int y;
 	long long int z;
 	float a;
 
-	printf("Size of char: %lu byte(s)\n", (unsigned long)sizeof(w));
-	printf("Size of int: %lu byte(s)\n", (unsigned long)sizeof(x));
-	printf("Size of long: %lu byte(s)\n", (unsigned long)sizeof(y));
-	printf("Size of long long: %lu byte(s)\n", (unsigned long)sizeof(z));
-	printf("Size of float: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of char: %lu byte(S)\n", (unsigned long)sizeof(w));
+	printf("Size of int: %lu byte(S)\n", (unsigned long)sizeof(x));
+	printf("Size of long int: %lu byte(S)\n", (unsigned long)sizeof(y));
+	printf("Size of long long int: %lu byte(S)\n", (unsigned long)sizeof(z));
+	printf("Size of float: %lu byte(S)\n", (unsigned long)sizeof(a));
 	return (0);
 }
