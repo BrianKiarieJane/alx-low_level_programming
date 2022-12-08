@@ -5,11 +5,11 @@
 */
 int main(void)
 {
-	char a, ('__packed__');
+	float e;
+	char a;
 	int b;
 	long int c;
 	long long int d;
-	float e;
 
 	printf("Size of char: %ld byte(s)\n", sizeof(a));
 	printf("Size of int: %ld byte(s)\n", sizeof(b));
