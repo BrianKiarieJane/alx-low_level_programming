@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-	char a;
+	char a, ('__packed__');
 	int b;
 	long int c;
 	long long int d;
