@@ -1,21 +1,20 @@
-#include<stdio.h>
+#include(stdio.h)
 /**
- * main -print sizes of different data sets
- * data set order-char,int,long int,long long int,float
- * Return:0
+ * main- prints the size of various types
+ * Return: 0
 */
 int main(void)
 {
-	char m;
-	int n;
-	long int o;
-	long long int p;
-	float q;
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float e;
 
-	printf("Size of char: %i byte(s)\n", sizeof(m));
-	printf("Size of int: %i byte(s)\n", sizeof(n));
-	printf("Size of long int: %i byte(s)\n", sizeof(o));
-	printf("Size of long long int: %i byte(s)\n", sizeof(p));
-	printf("Size of float: %i byte(s)\n", sizeof(q));
+	printf("Size of char: %d byte(s)\n" sizeof(a));
+	printf("Size of int: %d byte(s)\n" sizeof(b));
+	printf("Size of long int: %d byte(s)\n" sizeof(c));
+	printf("Size of long long int: %d byte(s)\n" sizeof(d));
+	printf("Size of float: %d byte(s)\n" sizeof(e));
 	return (0);
 }
