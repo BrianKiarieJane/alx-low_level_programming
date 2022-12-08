@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <limits.h>
 /**
  * main- prints the size of various types
  * Return: 0
@@ -12,7 +11,7 @@ int main(void)
 	long long int d;
 	float e;
 
-	printf("Size of char: %d byte(s)\n", CHAR_BIT);
+	printf("Size of char: %ld byte(s)\n", sizeof(a));
 	printf("Size of int: %ld byte(s)\n", sizeof(b));
 	printf("Size of long int: %ld byte(s)\n", sizeof(c));
 	printf("Size of long long int: %ld byte(s)\n", sizeof(d));
