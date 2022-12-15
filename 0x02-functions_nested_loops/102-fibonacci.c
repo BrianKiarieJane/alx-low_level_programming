@@ -11,17 +11,13 @@ int main(void)
 	long f2;
 	long sum;
 
-	for (x = 0; x < 50; x++)
+	for (x = 0; x < 48; x++)
 	{
 		sum = f1 + f2;
-		printf("%lu", sum);
+		printf(", %lu", sum);
 		f1 = f2;
 		f2 = sum;
-
-		if (x == 49)
-			printf("\n");
-		else
-			printf(", ");
 	}
+	printf("\n");
 	return (0);
 }
