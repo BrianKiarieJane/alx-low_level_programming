@@ -6,23 +6,21 @@
  */
 int main(void)
 {
-	long f1;
-	long f2;
-	long sum;
-	float total;
+	long int n1, n2, fn, afn;
 
-	f1 = 1;
-	f2 = 2;
-
-	while (sum <= 4000000)
+	n1 = 1;
+	n2 = 2;
+	fn = afn = 0;
+	while (fn <= 4000000)
 	{
-		sum = f1 + f2;
-
-		if ((f1 % 2) == 0)
-			total += f1;
-		f1 = f2;
-		f2 = sum;
+		fn = n1 + n2;
+		n1 = n2;
+		n2 = fn;
+		if ((n1 % 2) == 0)
+		{
+			afn += n1;
+		}
 	}
-	printf("%f\n", total);
+	printf("%ld\n", afn);
 	return (0);
 }
