@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * _abs - compute absolute value
+ * @x: int to check
+ * Return: Always 0 (success)
+ */
+int _abs(int x)
+{
+	if (x >= 0)
+		return (x);
+	else
+		return (x * -1);
+}
