@@ -11,18 +11,15 @@ int main(void)
 	long sum;
 	float total;
 
-	f1 = 0;
-	f2 = 1;
+	f1 = 1;
+	f2 = 2;
 
-	while (1)
+	while (sum <= 4000000)
 	{
 		sum = f1 + f2;
 
-		if (sum > 4000000)
-			break;
-
-		if ((sum % 2) == 0)
-			total += sum;
+		if ((f1 % 2) == 0)
+			total += f1;
 		f1 = f2;
 		f2 = sum;
 	}
