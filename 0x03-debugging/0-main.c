@@ -2,9 +2,10 @@
 
 /**
  * main - test fn
+ * @x: int
  * Return: 0
  */
-int main(void)
+void positive_or_negative(int x)
 {
 	int x;
 
