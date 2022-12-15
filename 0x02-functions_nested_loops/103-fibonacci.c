@@ -10,11 +10,11 @@ int main(void)
 	long f2;
 	long sum;
 	float total;
+	f1 = 0;
+	f2 = 1;
 
 	while (1)
 	{
-		f1 = 0;
-		f2 = 1;
 		sum = f1 + f2;
 
 		if (sum > 4000000)
