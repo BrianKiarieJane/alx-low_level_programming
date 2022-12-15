@@ -33,10 +33,11 @@ void print_times_table(int n)
 				}
 				else if (z <= 99 && z >= 10)
 				{
-					_putchar((prod / 10) + '0');
+					_putchar((z / 10) + '0');
 				}
 				_putchar((z % 10) + '0');
 			}
 			_putchar('\n');
 		}
 	}
+}
