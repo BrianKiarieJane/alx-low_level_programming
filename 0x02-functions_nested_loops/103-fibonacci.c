@@ -10,8 +10,8 @@ int main(void)
 	long f2;
 	long sum;
 	float total;
-	
-	while(1)
+
+	while (1)
 	{
 		f1 = 0;
 		f2 = 1;
