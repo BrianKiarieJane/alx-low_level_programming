@@ -10,6 +10,7 @@ int main(void)
 	long f2;
 	long sum;
 	float total;
+
 	f1 = 0;
 	f2 = 1;
 
