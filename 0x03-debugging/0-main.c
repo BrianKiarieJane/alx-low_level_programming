@@ -1,15 +1,16 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - test
+ * main - tests function
  * Return: 0
  */
+
 int main(void)
 {
-	int x;
+	int i;
 
-	x = 0;
-	positve_or_negative(x);
+	i = 0;
+	positive_or_negative(i);
 
 	return (0);
 }
