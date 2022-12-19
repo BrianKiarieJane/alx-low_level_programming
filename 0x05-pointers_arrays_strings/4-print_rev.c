@@ -16,12 +16,12 @@ void print_rev(char *s)
 	{
 		k++;
 		*x = *s;
-		for (*x = *s)
+		for (; *x = *s;)
 		{
 			*x = z;
-			while (z[k] = '\0')
+			while (*x[k] = '\0')
 			{
-				_putchar(z[k]);
+				_putchar(z);
 				k++;
 			}
 		}
