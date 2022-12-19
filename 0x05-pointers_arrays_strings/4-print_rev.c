@@ -15,16 +15,11 @@ void print_rev(char *s)
 	while (s[k] != '\0')
 	{
 		k++;
-		*x = *s;
-		for (; *x = *s;)
-		{
-			*x = z;
-			while (*x[k] = '\0')
-			{
-				_putchar(z);
-				k++;
-			}
-		}
+	}
+	
+	for (z = k - 1; z >= 0; z--)
+	{
+		_putchar(s[z]);
 	}
 	_putchar('\n');
 }
