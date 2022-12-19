@@ -8,6 +8,6 @@ void _puts(char *str)
 {
 	int g = *str;
 
-	_putchar('%p', &g);
+	_putchar("%p\n", &g);
 	return (0);
 }
