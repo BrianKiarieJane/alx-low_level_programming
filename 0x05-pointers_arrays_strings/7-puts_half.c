@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * puts_half - prts halfstr
  * @str: str
