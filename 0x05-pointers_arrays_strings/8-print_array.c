@@ -24,5 +24,5 @@ void print_array(int *a, int n)
 		}
 		y++;
 	}
-	printf('\n');
+	printf("\n");
 }
