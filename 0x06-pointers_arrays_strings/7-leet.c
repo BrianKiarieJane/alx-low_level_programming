@@ -16,7 +16,7 @@ char *leet(char *s)
 		for (l = 0; l <= 9; l++)
 		{
 			if (x[l] == s[k])
-				t[k] = y[l];
+				s[k] = y[l];
 		}
 	}
 	return (s);
