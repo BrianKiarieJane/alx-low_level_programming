@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * *string_toupper - change lower to upper
- * @x: int
+ * @s: int
  * Return: 0
  */
-char *string_toupper(char *x)
+char *string_toupper(char *s)
 {
 	int x = 0;
 
