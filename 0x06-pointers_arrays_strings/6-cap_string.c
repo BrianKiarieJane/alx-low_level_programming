@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * *cap_string - caps on
- * @x: int
+ * @s: int
  * Return: 0
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i = 0, j;
 	char a[] = " \t\n,;.!?\"(){}";
