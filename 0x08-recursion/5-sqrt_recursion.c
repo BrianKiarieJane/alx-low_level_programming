@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * _sqrt_recursion - returns the natural square root of a number.
- * @n: int
- * Return: 0
+ * check - checks for the square root
+ * @a:int
+ * @b:int
+ * Return: int
  */
-int _sqrt_recursion(int n)
+int check(int a, int b)
 {
 	if (a * a == b)
 		return (a);
