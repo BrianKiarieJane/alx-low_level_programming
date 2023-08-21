@@ -15,5 +15,18 @@ void rev_string(char *s)
 	for (x = s - 1; x >= 0; x--)
 	{
 		_putchar(s);
+	}int a = 0, b, c;
+	char d;
+
+	while (s[a] != '\0')
+	{
+		a++;
+	}
+	c = a - 1;
+	for (b = 0; c >= 0 && b < c; c--, b++)
+	{
+		d = s[b];
+		s[b] = s[c];
+		s[c] = d;
 	}
 }
