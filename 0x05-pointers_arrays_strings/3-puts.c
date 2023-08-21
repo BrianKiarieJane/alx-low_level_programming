@@ -9,10 +9,10 @@ void _puts(char *str)
 {
 	int x = *str;
 
-	while (x != '\0')
+	while ((x = *str++) != '\0')
 	{
-		_putchar("5d", &x);
-		x++;
+		_putchar(x);
+
 	}
 	_putchar('\n');
 }
