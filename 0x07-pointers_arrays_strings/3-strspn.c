@@ -12,28 +12,20 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int len = 0;
-	int found;
+	int z = 0, x, y;
 
-	while (*s != '\0')
+	for (x = 0; s[x] != '\0'; x++)
 	{
-		found  = 0;
-
-		for (char *a = accept; *a != '\0'; ++a)
+		if (s[x] != 32)
 		{
-			if (*s == 'a')
+			for (y = 0; accept[y] != '\0'; y++)
 			{
-				found = 1;
-				break;
+				if (s[x] == accept[y])
+					z++;
 			}
 		}
-		if (!found)
-		{
-			break;
-		}
-		++len;
-		++s;
+		else
+			return (z);
 	}
-
-	return (len);
+	return (z);
 }
