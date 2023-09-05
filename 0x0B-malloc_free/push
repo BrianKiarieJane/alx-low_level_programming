@@ -1,0 +1,5 @@
+#!/bin/bash
+gcc *.c
+git add .
+git commit -m 'Task Complete Successfully'
+git push
