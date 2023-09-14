@@ -1,0 +1,6 @@
+#!/bin/bash
+gcc *.c
+betty *.c
+git add .
+git commit -m 'Task Complete'
+git push
