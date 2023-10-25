@@ -1,6 +1,0 @@
-#!/bin/bash
-betty *.c
-gcc *.c
-git add .
-git commit -m 'Task complete'
-git push
