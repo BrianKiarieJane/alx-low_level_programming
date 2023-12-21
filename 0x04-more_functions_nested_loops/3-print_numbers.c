@@ -1,15 +1,18 @@
 #include "main.h"
+
 /**
- * print_numbers - a function that prints the numbers, from 0 to 9
- * Return: Always 0
- */
+*print_numbers - print 0123456789
+* owned by Bwave ICT
+*Return: void
+*/
+
 void print_numbers(void)
 {
-	char k;
+	char c;
 
-	for (k = '0'; k <= '9'; k++)
-		_putchar(k);
+	for (c = '0'; c <= '9'; c++)
+	{
+	_putchar(c);
+	}
 	_putchar('\n');
-	
-	return (0);
 }
